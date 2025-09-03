@@ -173,6 +173,12 @@
       margin: 0 auto;
       background: #111;
     }
+    .profile-pic-padding {
+      padding-top: 4rem;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
     .profile-pic-container:hover {
       transform: scale(1.1) rotate(5deg);
       box-shadow:
@@ -401,6 +407,9 @@
         width: 140px;
         height: 140px;
       }
+      .profile-pic-padding {
+        padding-top: 3rem;
+      }
       main {
         padding: 2rem 1.5rem;
       }
@@ -435,9 +444,11 @@
    <div class="floating-circle circle4"></div>
   </div>
   <header class="w-full max-w-4xl flex flex-col items-center mb-20 relative z-20 text-center">
-   <div aria-label="Profile picture of Elhamuddin Mayar, a confident young professional with short dark hair, wearing a smart casual blue shirt, smiling warmly" class="profile-pic-container fade-in-up delay-1" tabindex="0">
-    <img alt="Profile picture of Elhamuddin Mayar, a confident young professional with short dark hair, wearing a smart casual blue shirt, smiling warmly" height="400" loading="lazy" src="mayar.jpg" width="400"/>
-    <div aria-hidden="true" class="animated-border">
+   <div class="profile-pic-padding">
+    <div aria-label="Profile picture of Elhamuddin Mayar, a confident young professional with short dark hair, wearing a smart casual blue shirt, smiling warmly" class="profile-pic-container fade-in-up delay-1" tabindex="0">
+     <img alt="Profile picture of Elhamuddin Mayar, a confident young professional with short dark hair, wearing a smart casual blue shirt, smiling warmly" height="400" loading="lazy" src="mayar.jpg" width="400"/>
+     <div aria-hidden="true" class="animated-border">
+     </div>
     </div>
    </div>
    <h1 class="text-5xl font-extrabold bg-clip-text text-transparent drop-shadow-lg fade-in-up delay-2 tracking-wide mt-6" style="background-image: linear-gradient(90deg, #ff6a00, #ee0979, #ff6a00);">
